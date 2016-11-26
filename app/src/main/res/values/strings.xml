@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Ship Stability</string>
+    <string name="quiz1_title">QUIZ-1</string>
+    <string name="quiz1">2008 IS Code contains intact stability criteria for the marine vehicles of _____ in length and above.</string>
+    <string name="quiz1_24m">24m</string>
+    <string name="quiz1_50m">50m</string>
+    <string name="quiz1_100m">100m</string>
+
+    <string name="quiz2_title">QUIZ-2</string>
+    <string name="quiz2">Passenger ships need to check SOLAS Probabilistic Damage Stability. Passenger ships are ships which carry more than ____ passengers.</string>
+    <string name="quiz2_answer1">twelve</string>
+    <string name="quiz2_answer2">12</string>
+
+    <string name="quiz3_title">QUIZ-3</string>
+    <string name="quiz3">Oil tankers of ____ dwt and above shall comply with regulation 27 of Annex I to MARPOL 73/78.</string>
+    <string name="quiz3_answer">5000</string>
+
+    <string name="quiz4_title">QUIZ-4</string>
+    <string name="quiz4_line1">To be dispensed from an inclining test, the deviation of lightship mass is not to exceed, x% of the lightship mass of the lead ship. </string>
+    <string name="quiz4_line2">% for L &lt; 50m</string>
+    <string name="quiz4_line3">% for L &gt; 160m</string>
+    <string name="quiz4_line4">for intermediate L: by linear interpolation.</string>
+
+    <string name="quiz5_title">QUIZ-5</string>
+    <string name="quiz5">50m ASD Tug with 15 special persons need to check the following stability criteria. Check them all apply.</string>
+    <string name="quiz5_iscode">2008 IS CODE</string>
+    <string name="quiz5_prob">Probabilistic Damage Stability (SPS CODE)</string>
+    <string name="quiz5_marpol">MARPOL Damage Stability</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="correct"><font fgcolor='#4CAF50'>Correct</font></string>
+    <string name="tryagain"><font fgcolor='#FFFF3B30'>Try Again</font></string>
+
+    <string name="total_scores">Total Scores: </string>
+</resources>

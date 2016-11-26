@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.shipstability.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/quiz1_title"
+                style="@style/QuizTitleStyle"
+                android:text="@string/quiz1_title" />
+
+            <TextView
+                android:id="@+id/quiz1"
+                style="@style/QuizStyle"
+                android:layout_below="@id/quiz1_title"
+                android:text="@string/quiz1" />
+
+            <RadioGroup
+                android:id="@+id/quiz1_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/quiz1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/quiz1_answer_24m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/quiz1_24m" />
+
+                <RadioButton
+                    android:id="@+id/quiz1_answer_50m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/quiz1_50m" />
+
+                <RadioButton
+                    android:id="@+id/quiz1_answer_100m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/quiz1_100m" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/quiz1_result"
+                style="@style/QuizAnswerStyle"
+                android:layout_below="@id/quiz1_radiogroup"
+                android:text=" "/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quiz2_title"
+                style="@style/QuizTitleStyle"
+                android:text="@string/quiz2_title" />
+
+            <TextView
+                android:id="@+id/quiz2"
+                style="@style/QuizStyle"
+                android:text="@string/quiz2" />
+
+            <EditText
+                android:id="@+id/quiz2_answer"
+                style="@style/QuizStyle"
+                android:hint="Type your answer here."/>
+
+            <TextView
+                android:id="@+id/quiz2_result"
+                style="@style/QuizAnswerStyle"
+                android:text=" " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quiz3_title"
+                style="@style/QuizTitleStyle"
+                android:text="@string/quiz3_title" />
+
+            <TextView
+                android:id="@+id/quiz3"
+                style="@style/QuizStyle"
+                android:text="@string/quiz3" />
+
+            <EditText
+                android:id="@+id/quiz3_answer"
+                style="@style/QuizStyle"
+                android:hint="Type your answer here." />
+
+            <TextView
+                android:id="@+id/quiz3_result"
+                style="@style/QuizAnswerStyle"
+                android:text=" " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quiz4_title"
+                style="@style/QuizTitleStyle"
+                android:text="@string/quiz4_title" />
+
+            <TextView
+                android:id="@+id/quiz4_line1"
+                style="@style/QuizStyle"
+                android:layout_below="@id/quiz4_title"
+                android:text="@string/quiz4_line1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/quiz4_answer1"
+                    style="@style/QuizStyle"
+                    android:hint="Answer One" />
+
+                <TextView
+                    android:id="@+id/quiz4_line2"
+                    style="@style/QuizStyle"
+                    android:layout_marginLeft="24dp"
+                    android:text="@string/quiz4_line2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/quiz4_answer2"
+                    style="@style/QuizStyle"
+                    android:hint="Answer Two" />
+
+                <TextView
+                    android:id="@+id/quiz4_line3"
+                    style="@style/QuizStyle"
+                    android:layout_marginLeft="24dp"
+                    android:text="@string/quiz4_line3" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/quiz4_result"
+                style="@style/QuizAnswerStyle"
+                android:text=" " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/quiz5_title"
+                style="@style/QuizTitleStyle"
+                android:text="@string/quiz5_title" />
+
+            <TextView
+                android:id="@+id/quiz5"
+                style="@style/QuizStyle"
+                android:text="@string/quiz5" />
+
+            <CheckBox
+                android:id="@+id/quiz5_answer_iscode"
+                style="@style/QuizStyle"
+                android:text="@string/quiz5_iscode" />
+
+            <CheckBox
+                android:id="@+id/quiz5_answer_prob"
+                style="@style/QuizStyle"
+                android:text="@string/quiz5_prob" />
+
+            <CheckBox
+                android:id="@+id/quiz5_answer_marpol"
+                style="@style/QuizStyle"
+                android:text="@string/quiz5_marpol" />
+
+            <TextView
+                android:id="@+id/quiz5_result"
+                style="@style/QuizAnswerStyle"
+                android:text=" " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="submit"
+                android:text="@string/submit" />
+
+            <TextView
+                android:id="@+id/total_scores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:text=" " />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
